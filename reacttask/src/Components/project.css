@@ -1,0 +1,13 @@
+.all-grid {
+    display: grid;
+    grid-template-rows: repeat(3,200px);
+    grid-template-columns: repeat(3,500px) ;
+    gap: 20px;
+}
+.all-grid >* {
+    border: 2px black solid;
+    background-color:antiquewhite;
+}
+.allnew {
+    background-color: aliceblue;
+}
