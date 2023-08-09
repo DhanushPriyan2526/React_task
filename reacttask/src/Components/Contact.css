@@ -1,0 +1,21 @@
+.social {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    
+}
+.social > * {
+    
+    background-color: beige;
+    padding: 20px;
+    width: 700px;
+    align-items: center;
+    border: 3px solid burlywood;
+    text-align: center;
+    
+}
+.main {
+    background-color: aliceblue;
+    height: 600px;
+}
